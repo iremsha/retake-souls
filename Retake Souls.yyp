@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04001445-9be3-4e0e-b7f5-5301e539cd57",
+            "Value": {
+                "id": "198531bb-1158-4669-99a8-ef53832d9686",
+                "resourcePath": "scripts\\move_and_collide\\move_and_collide.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07922d74-b4c1-4f39-8c17-4747bc7d08cf",
             "Value": {
                 "id": "594edcae-5163-447a-9021-a340b6bbdd87",
@@ -71,11 +79,27 @@
             }
         },
         {
+            "Key": "424e6993-e7d0-4496-b447-f69aed1906ed",
+            "Value": {
+                "id": "624925e5-c2ba-47ee-876e-bd882609a85a",
+                "resourcePath": "scripts\\set_state_sprite\\set_state_sprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "442803cd-568b-4a66-9cad-3eae6de77cc1",
             "Value": {
                 "id": "5d959605-a7d7-4526-b132-13e2ea1564a3",
                 "resourcePath": "objects\\o_hero\\o_hero.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48084c2d-f7b7-4202-8bfb-557c05a84603",
+            "Value": {
+                "id": "302068e6-8784-4723-aaaf-ebc68f7f428b",
+                "resourcePath": "sprites\\s_attack3\\s_attack3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -140,6 +164,14 @@
                 "id": "97aa4dd1-32ba-4c27-a89d-ed6fdc46c79d",
                 "resourcePath": "views\\70a9ff39-9d10-417b-83f6-7260e6797039.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71bdc960-cea2-4bd0-99f9-f97e2cf03009",
+            "Value": {
+                "id": "ce372e13-989e-4578-9645-cc1b98c84277",
+                "resourcePath": "scripts\\animation_hit_frame_range\\animation_hit_frame_range.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -344,7 +376,9 @@
         }
     ],
     "script_order": [
-        
+        "04001445-9be3-4e0e-b7f5-5301e539cd57",
+        "71bdc960-cea2-4bd0-99f9-f97e2cf03009",
+        "424e6993-e7d0-4496-b447-f69aed1906ed"
     ],
     "tutorial": ""
 }
