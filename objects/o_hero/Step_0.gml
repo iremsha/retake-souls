@@ -52,7 +52,7 @@ switch(state)
 		move_and_collide(-roll_speed, 0)
 	}
 	
-	if animation_end
+	if animation_end()
 	{
 		state = "Move"
 		
