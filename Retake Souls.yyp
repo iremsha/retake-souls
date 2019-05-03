@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b538b6c-0a77-4e65-a48b-a95a860876bd",
+            "Value": {
+                "id": "7fc7e4bb-e610-4bb7-949d-436283ebbeaa",
+                "resourcePath": "sprites\\Skeleton_Mask\\Skeleton_Mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e8b644a-bc77-4bc7-b758-2907899a5162",
             "Value": {
                 "id": "5c374d05-55e7-4aa4-bef1-607d1697dec4",
@@ -75,6 +83,14 @@
             "Value": {
                 "id": "1e604e75-9775-4482-9641-734b93ab0e3a",
                 "resourcePath": "scripts\\animation_end\\animation_end.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2056431e-ba72-4f3f-b0a8-972a8cf9d9fc",
+            "Value": {
+                "id": "4c1a41fa-f285-4c00-aa79-b0ff8fdcba12",
+                "resourcePath": "scripts\\approach\\approach.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -164,6 +180,14 @@
                 "id": "5d959605-a7d7-4526-b132-13e2ea1564a3",
                 "resourcePath": "objects\\o_hero\\o_hero.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "45008ba8-e39f-4525-bb49-279f2e6197d3",
+            "Value": {
+                "id": "8f5f93f9-8b25-4527-af8a-f748cd938c4f",
+                "resourcePath": "sprites\\Hero_Mask\\Hero_Mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -367,6 +391,14 @@
             }
         },
         {
+            "Key": "ac9cc88e-fe09-446e-af68-b461262929c5",
+            "Value": {
+                "id": "cced3e3c-61e5-4675-b8e6-2f46d3eefc27",
+                "resourcePath": "views\\ac9cc88e-fe09-446e-af68-b461262929c5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ad1d9c4e-a1b0-4559-951a-a2df16f3940a",
             "Value": {
                 "id": "cbbce4d4-0f35-4843-b3cc-c8960b9df439",
@@ -415,6 +447,14 @@
             }
         },
         {
+            "Key": "c26973ff-3dfd-4b8b-be88-ad159c939a4f",
+            "Value": {
+                "id": "2899acd5-0b95-45cb-a942-125c28cb9611",
+                "resourcePath": "objects\\o_lifeform\\o_lifeform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "6534212e-c146-4634-bf53-102fe6ae3a8e",
@@ -452,6 +492,14 @@
                 "id": "055070b1-7f3a-42a1-a54c-256cc9f16f80",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e60ea2d9-8b7a-4e64-b873-9b20cd2c2180",
+            "Value": {
+                "id": "39bfc2d9-41fd-410d-b21b-41310d9b8e1e",
+                "resourcePath": "sprites\\Skeleton_Attack_damage\\Skeleton_Attack_damage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -509,7 +557,8 @@
         "424e6993-e7d0-4496-b447-f69aed1906ed",
         "0e8b644a-bc77-4bc7-b758-2907899a5162",
         "1f08b792-6bc5-40a0-a71b-e0ef5249b417",
-        "e910b020-bc12-40f6-8f82-67b8cfadda91"
+        "e910b020-bc12-40f6-8f82-67b8cfadda91",
+        "2056431e-ba72-4f3f-b0a8-972a8cf9d9fc"
     ],
     "tutorial": ""
 }

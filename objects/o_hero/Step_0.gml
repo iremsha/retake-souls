@@ -90,7 +90,7 @@ switch(state)
 		
 	if animation_hit_frame(4)
 	{
-		create_hitbox(x, y, self, Hero_Attack_two_damage, 4, 4, 1, image_xscale)
+		create_hitbox(x, y, self, Hero_Attack_two_damage, 1, 4, 1, image_xscale)
 	}
 	
 	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 5)
@@ -114,7 +114,7 @@ switch(state)
 		
 		if animation_hit_frame(3)
 		{
-		create_hitbox(x, y, self, Hero_Attack_three_damage, 4, 4, 1, image_xscale)
+		create_hitbox(x, y, self, Hero_Attack_three_damage, 8, 4, 1, image_xscale)
 		}
 		
 		if animation_end()
@@ -123,6 +123,21 @@ switch(state)
 			
 		}
 		
+		#endregion
+		break
+		
+	case "Knockback":
+		#region Knockback State
+		set_state_sprite(Hero_Idle, 0.5, 0)
+		
+		move_and_collide(knockback_speed, 0)
+		knockback_speed = lerp(knockback_speed, 0, 0.5)
+		if knockback_speed < 1
+		{
+			knockback_speed = 0
+			state = "Move"
+			
+		}
 		#endregion
 		break
 }

@@ -9,6 +9,7 @@ var xscale = argument7
 
 var hitbox = instance_create_layer(x_pos, y_pos, "Instances", o_hitbox)
 hitbox.sprite_index = sprite
+hitbox.creator = creator
 hitbox.knockback = knockback	
 hitbox.alarm[0] = lifespan
 hitbox.damage = damage

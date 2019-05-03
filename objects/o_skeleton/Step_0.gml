@@ -27,13 +27,32 @@ switch(state)
 	case "Attack":
 		#region Attack State
 		set_state_sprite(Skeleton_Attack, 0.6, 0)
-		#endregion
+		
+		if animation_hit_frame(7)
+		{
+		create_hitbox(x, y, self, Skeleton_Attack_damage, 4, 4, 1, image_xscale)
+		}
 		
 		if animation_end()
 		{
 			state = "Chase"
 			image_index = 0
 		}
+		#endregion
+		break
 		
+	case "Knockback":
+		#region Knockback State
+		set_state_sprite(Skeleton_Hit, 1, 0)
+		image_xscale = -sign(knockback_speed)
+		move_and_collide(knockback_speed, 0)
+
+		knockback_speed = approach(knockback_speed, 0, 0.6)
+		if knockback_speed == 0
+		{
+			state = "Chase"
+			
+		}
+		#endregion
 		break
 }
