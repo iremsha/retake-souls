@@ -128,16 +128,8 @@ switch(state)
 		
 	case "Knockback":
 		#region Knockback State
-		set_state_sprite(Hero_Idle, 0.5, 0)
+		knockback_state(Hero_Hit, "Move")
 		
-		move_and_collide(knockback_speed, 0)
-		knockback_speed = lerp(knockback_speed, 0, 0.5)
-		if knockback_speed < 1
-		{
-			knockback_speed = 0
-			state = "Move"
-			
-		}
 		#endregion
 		break
 }
