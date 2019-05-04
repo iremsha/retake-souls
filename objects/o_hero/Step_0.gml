@@ -64,13 +64,13 @@
 		#region Attack One State
 	set_state_sprite(Hero_Attack_one, 0.5, 0)
 	
-	if animation_hit_frame(4)
+	if animation_hit_frame(3)
 	{
 		audio_play_sound(sound_sword_one, 1000, false)
 		create_hitbox(x, y, self, Hero_Attack_one_damage, 3, 4, 1, image_xscale)
 	}
 	
-	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 5)
+	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 6)
 	{
 		
 		state = "Attack two"
@@ -88,14 +88,14 @@
 	case "Attack two":
 		#region Attack Two  State
 	set_state_sprite(Hero_Attack_two, 0.5, 0)
-		
-	if animation_hit_frame(4)
+		 
+	if animation_hit_frame(2)
 	{
 		audio_play_sound(sound_sword_two, 1000, false)
 		create_hitbox(x, y, self, Hero_Attack_two_damage, 1, 4, 2, image_xscale)
 	}
 	
-	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 5)
+	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5)
 	{
 		
 		state = "Attack three"
