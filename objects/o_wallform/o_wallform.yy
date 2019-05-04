@@ -1,14 +1,14 @@
 {
-    "id": "07922d74-b4c1-4f39-8c17-4747bc7d08cf",
+    "id": "8baa8741-95ed-4166-90ef-f7621e16cb91",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_terra",
+    "name": "o_wallform",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8baa8741-95ed-4166-90ef-f7621e16cb91",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8856f92c-0541-463d-a3f8-008d4c75df74",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

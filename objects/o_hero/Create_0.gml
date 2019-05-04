@@ -4,3 +4,6 @@ state = "Move"
 
 run_speed = 4
 roll_speed = 6
+
+souls = 0
+level = 1 

@@ -1,4 +1,4 @@
-switch(state)
+		switch(state)
 {
 	case "Move":
 		#region Move State

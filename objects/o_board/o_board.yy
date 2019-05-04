@@ -1,8 +1,8 @@
 {
-    "id": "07922d74-b4c1-4f39-8c17-4747bc7d08cf",
+    "id": "643cde76-69bc-4e84-9b64-318a473c2e78",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_terra",
+    "name": "o_board",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8856f92c-0541-463d-a3f8-008d4c75df74",
+    "spriteId": "78a7ac26-35ea-4ec4-91d7-660de40b7342",
     "visible": true
 }
