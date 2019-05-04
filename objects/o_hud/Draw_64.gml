@@ -24,7 +24,7 @@ draw_line_width_color(hp_x - 1, hp_y - 1, hp_x - 1, hp_y + hp_hight, 1, c_dkgray
 draw_line_width_color(hp_x + hp_width, hp_y - 1, hp_x + hp_width, hp_y + hp_hight, 1, c_dkgray, c_dkgray)
 
 if not instance_exists(o_hero) exit
-var text = "Level: " + string(o_hero.level)
+var text = "Level:" + string(o_hero.level)
 var text_width = string_width(text)
 var text_height = string_height(text)
 
@@ -36,11 +36,11 @@ draw_rectangle_color(start_x, start_y, start_x + text_width + padding_x, start_y
 draw_text(start_x + padding_x/2, start_y + padding_y, text)
 
 
-var text = "Souls: " + string(o_hero.souls)
+var text = "Souls:" + string(o_hero.souls)
 var text_width = string_width(text)
 var text_height = string_height(text)
 
-var start_x = (8 * 8) + (padding_x * padding_x)
+var start_x = (8 * 8) + (padding_x * 1)
 var start_y = 16
 var padding_x = 4
 var padding_y = 4

@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "3e24845d-44fd-4045-90bd-5b34e8113a16",
+            "Value": {
+                "id": "e83a5d98-d7da-4ad7-b587-a3bd8670bebd",
+                "resourcePath": "sprites\\Souls\\Souls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "424e6993-e7d0-4496-b447-f69aed1906ed",
             "Value": {
                 "id": "624925e5-c2ba-47ee-876e-bd882609a85a",
@@ -276,6 +284,14 @@
                 "id": "20fed2d0-43b5-44da-aea6-2f35e9de9607",
                 "resourcePath": "views\\48d2fdcc-b6c0-4d9d-a974-28062313b308.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48fc27e2-2a03-40bd-a20e-863854076c76",
+            "Value": {
+                "id": "11d481a7-d448-4478-93c9-0566caf1a8dc",
+                "resourcePath": "objects\\o_souls\\o_souls.yy",
+                "resourceType": "GMObject"
             }
         },
         {
