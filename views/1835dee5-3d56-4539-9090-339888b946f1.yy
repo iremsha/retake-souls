@@ -9,7 +9,9 @@
         "c26973ff-3dfd-4b8b-be88-ad159c939a4f",
         "194eb4f0-aeb0-4a0e-859b-6dd7649425ff",
         "8baa8741-95ed-4166-90ef-f7621e16cb91",
-        "48fc27e2-2a03-40bd-a20e-863854076c76"
+        "48fc27e2-2a03-40bd-a20e-863854076c76",
+        "ce5a4fce-7dc8-4fbe-acbf-18acdc0b6200",
+        "6b846097-9aff-45bd-900b-591fa2a70262"
     ],
     "filterType": "GMObject",
     "folderName": "Game System Object",

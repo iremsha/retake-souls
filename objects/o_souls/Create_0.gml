@@ -1,2 +1,2 @@
 direction = random(360)
-speed = irandom_range(2, 4)
+speed = random_range(2, 4)

@@ -7,7 +7,8 @@
         "fc24bf60-9551-48a4-b650-74c744a4cf5c",
         "70f238d5-69c0-4d6d-a8fb-5c0846926bc8",
         "07922d74-b4c1-4f39-8c17-4747bc7d08cf",
-        "643cde76-69bc-4e84-9b64-318a473c2e78"
+        "643cde76-69bc-4e84-9b64-318a473c2e78",
+        "33c11a9a-88fa-4d81-93a0-021013ab0c45"
     ],
     "filterType": "GMObject",
     "folderName": "Enviroment Object",

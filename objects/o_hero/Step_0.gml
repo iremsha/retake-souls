@@ -1,4 +1,4 @@
-		switch(state)
+	 switch(state)
 {
 	case "Move":
 		#region Move State
@@ -66,7 +66,8 @@
 	
 	if animation_hit_frame(4)
 	{
-		create_hitbox(x, y, self, Hero_Attack_one_damage, 4, 4, 1, image_xscale)
+		audio_play_sound(sound_sword_one, 1000, false)
+		create_hitbox(x, y, self, Hero_Attack_one_damage, 3, 4, 1, image_xscale)
 	}
 	
 	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 5)
@@ -90,7 +91,8 @@
 		
 	if animation_hit_frame(4)
 	{
-		create_hitbox(x, y, self, Hero_Attack_two_damage, 1, 4, 1, image_xscale)
+		audio_play_sound(sound_sword_two, 1000, false)
+		create_hitbox(x, y, self, Hero_Attack_two_damage, 1, 4, 2, image_xscale)
 	}
 	
 	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 5)
@@ -114,7 +116,8 @@
 		
 		if animation_hit_frame(3)
 		{
-		create_hitbox(x, y, self, Hero_Attack_three_damage, 8, 4, 1, image_xscale)
+			audio_play_sound(sound_sword_one, 1000, false)
+			create_hitbox(x, y, self, Hero_Attack_three_damage, 8, 4, 3, image_xscale)
 		}
 		
 		if animation_end()
