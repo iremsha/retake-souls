@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "8a87cc74-5a4d-450d-9cbc-caad71c77a39",
+            "Value": {
+                "id": "1c467bef-2b3c-4b6e-8808-866c629693cd",
+                "resourcePath": "sprites\\Enemy_Healthbar\\Enemy_Healthbar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b16df9d-b3a4-4a74-970e-a8f26aaf2425",
             "Value": {
                 "id": "d878f07b-875c-4eca-8d38-4ccc140e4278",
@@ -791,6 +799,14 @@
             }
         },
         {
+            "Key": "f9e7edcf-11c0-49c8-84cc-380b991254fc",
+            "Value": {
+                "id": "08ee235c-4fea-4955-87e6-449d867edf28",
+                "resourcePath": "objects\\o_enemyform\\o_enemyform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fbf0a2aa-1f8e-4fce-bd01-5377b9aaa0f9",
             "Value": {
                 "id": "3ceb0e23-dd41-4919-a014-e57998d8be5f",
@@ -804,14 +820,6 @@
                 "id": "6b2511ad-f638-4dc4-9a2a-aeb293954d92",
                 "resourcePath": "objects\\o_home\\o_home.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fe66e0d4-ec36-434a-9004-394329e89d5c",
-            "Value": {
-                "id": "900d67fb-9fe3-44ee-94a4-d5274ee6a7a8",
-                "resourcePath": "views\\fe66e0d4-ec36-434a-9004-394329e89d5c.yy",
-                "resourceType": "GMFolder"
             }
         }
     ],
