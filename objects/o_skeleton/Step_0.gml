@@ -26,7 +26,7 @@ switch(state)
 		
 	case "Attack":
 		#region Attack State
-		set_state_sprite(Skeleton_Attack, 0.6, 0)
+		set_state_sprite(Skeleton_Attack, 1, 0)
 		
 		if animation_hit_frame(7)
 		{
