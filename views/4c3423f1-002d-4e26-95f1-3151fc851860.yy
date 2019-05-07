@@ -4,16 +4,11 @@
     "mvc": "1.1",
     "name": "4c3423f1-002d-4e26-95f1-3151fc851860",
     "children": [
-        "17a1ef81-e93b-4e12-ae06-51b4cfc6f97c",
-        "ebf56dc0-a37d-426e-9a38-b7744bd31995",
-        "42dfa9a0-ebf2-4582-a314-5ddb97fd4ead",
-        "8856f92c-0541-463d-a3f8-008d4c75df74",
-        "37b6d665-afc4-473f-b330-31f7a76c6144",
-        "17960429-572d-423f-8cf7-ec96472a9da7",
-        "01fd1b68-8817-4c35-a762-92563d789460",
-        "78a7ac26-35ea-4ec4-91d7-660de40b7342",
-        "11d6eb6e-d9e0-4d1d-b662-2f942267b7f4",
-        "c2b042b9-9433-40d3-9ca1-b688651d555d"
+        "470163da-b037-48fd-b7b3-c033994fc28e",
+        "d7e0097a-5f05-4779-a803-fe2beca66e56",
+        "809be8a1-e1c3-4cb3-b7fc-44d96fbb6c71",
+        "60a9f200-fde9-4081-aa6e-8c8a0d7dbfe1",
+        "dceff4e1-c588-4cea-9823-7002c00b5fbf"
     ],
     "filterType": "GMSprite",
     "folderName": "Enviroment",

@@ -1,0 +1,29 @@
+{
+    "id": "b30d2d0d-217b-4708-9087-a738051d0634",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_nvisible_floor",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": null,
+    "solid": false,
+    "spriteId": "60a9f200-fde9-4081-aa6e-8c8a0d7dbfe1",
+    "visible": true
+}

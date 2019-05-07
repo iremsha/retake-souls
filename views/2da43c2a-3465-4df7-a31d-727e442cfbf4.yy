@@ -4,14 +4,11 @@
     "mvc": "1.1",
     "name": "2da43c2a-3465-4df7-a31d-727e442cfbf4",
     "children": [
-        "b6ba7253-5ad4-4273-842b-49b3f77e0a97",
-        "27667d6f-3e82-40b7-83c5-c1b076409254",
-        "14eaccfc-24b6-4fad-a2ab-10594799d7a0",
-        "2edd017d-051c-40ab-a46b-9c939ca674c8",
-        "7ff59fc0-e497-41b4-8e04-661204f1c002",
         "ac9cc88e-fe09-446e-af68-b461262929c5",
-        "3e24845d-44fd-4045-90bd-5b34e8113a16",
-        "8a87cc74-5a4d-450d-9cbc-caad71c77a39"
+        "2178356d-cfbb-421b-86a2-2e65d9d9bb9d",
+        "8f540635-8fa4-4302-9a86-e58a1eb7d44a",
+        "271fbd37-5c6b-4a79-8f75-10692954b1ab",
+        "2f72344c-c4e1-4b7f-8ceb-36a71f067c9f"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemy",

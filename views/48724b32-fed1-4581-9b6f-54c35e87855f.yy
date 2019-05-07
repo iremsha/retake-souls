@@ -7,7 +7,7 @@
         "aa8bab9c-b8ac-434e-b3e5-263c380f2111"
     ],
     "filterType": "GMObject",
-    "folderName": "Bonuses",
+    "folderName": "Buff",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

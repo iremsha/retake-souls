@@ -7,7 +7,8 @@
 		move_and_collide(run_speed, 0)
 		image_speed = 0.5
 		image_xscale = 1
-		sprite_index = Hero_Run
+		if jump == true sprite_index = Hero_Roll
+		else sprite_index = Hero_Run
 	}
 
 	if keyboard_check(ord("A"))
@@ -15,15 +16,24 @@
 		move_and_collide(-run_speed, 0)
 		image_speed = 0.5
 		image_xscale = -1
-		sprite_index = Hero_Run
+		if jump == true sprite_index = Hero_Roll
+		else sprite_index = Hero_Run
 	}
 
 	if not keyboard_check(ord("A")) and not keyboard_check(ord("D"))
 	{
 		set_state_sprite(Hero_Idle_with_sword, 0.4, 0)
+		move_and_collide(0, 0)
 	}
 	
 	if keyboard_check_pressed(ord("W"))
+	{
+		image_index = 0
+		state = "Jump"
+	 
+	}
+	
+	if keyboard_check_pressed(ord("S"))
 	{
 		image_index = 0
 		state = "Roll"
@@ -58,6 +68,33 @@
 		
 	}
 	#endregion
+		break
+	case "Jump":
+		#region Jump State
+		move_and_collide(0, -12)
+		set_state_sprite(Hero_Jump, 0.7, 0)
+		if animation_end()
+		{
+		state = "Move"
+		
+		}
+		
+		if keyboard_check(ord("D"))
+	{
+		move_and_collide(run_speed, -12)
+		image_speed = 0.7
+		image_xscale = 1
+		
+	}
+
+	if keyboard_check(ord("A"))
+	{
+		move_and_collide(-run_speed, -12)
+		image_speed = 0.7
+		image_xscale = -1
+		
+	}
+		#endregion
 		break
 		
 	case "Attack one":
