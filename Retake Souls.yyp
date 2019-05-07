@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "1f15b95e-c1fc-4142-b5a0-92f074cc72de",
+            "Value": {
+                "id": "1a8eaee6-02d1-4814-8bf8-9611dc28fb38",
+                "resourcePath": "sprites\\Heal_Die\\Heal_Die.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2056431e-ba72-4f3f-b0a8-972a8cf9d9fc",
             "Value": {
                 "id": "4c1a41fa-f285-4c00-aa79-b0ff8fdcba12",
