@@ -2,7 +2,7 @@ switch(state)
 {
 	case "Chase":
 		#region Chease State
-		set_state_sprite(Skeleton_Walk, 0.8 , 0)
+		set_state_sprite(Skeleton_Walk, 0.7 , 0)
 		if not instance_exists(o_hero) break;
 		
 		image_xscale = sign(o_hero.x - x)
@@ -19,6 +19,7 @@ switch(state)
 		}
 		else
 		{
+			if range_target >= distance_to_player
 			move_and_collide(direction_facing * chase_speed, 0)
 		}
 		#endregion
@@ -26,7 +27,7 @@ switch(state)
 		
 	case "Attack":
 		#region Attack State
-		set_state_sprite(Skeleton_Attack, 1, 0)
+		set_state_sprite(Skeleton_Attack, 0.7, 0)
 		
 		if animation_hit_frame(7)
 		{

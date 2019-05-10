@@ -7,7 +7,8 @@
         "ebc7bec7-35dd-4781-a62c-a960b84523df",
         "1b11b116-a58c-4634-8141-2df2d1934c07",
         "412809b9-8c83-4e9d-a3fb-7ecb1c6a8fc5",
-        "87036deb-04dd-40a9-8843-e886968f40a6"
+        "87036deb-04dd-40a9-8843-e886968f40a6",
+        "a98cc78e-5973-463b-9b97-a21715e8ba88"
     ],
     "filterType": "GMSprite",
     "folderName": "Vernikoff",

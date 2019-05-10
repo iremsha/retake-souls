@@ -71,17 +71,17 @@
 		break
 	case "Jump":
 		#region Jump State
-		move_and_collide(0, -12)
+		move_and_collide(0, -10)
 		set_state_sprite(Hero_Jump, 0.7, 0)
 		if animation_end()
 		{
-		state = "Move"
+		state = "Fall"
 		
 		}
-		
+		/// Преписать прыжок, падение и каст!
 		if keyboard_check(ord("D"))
 	{
-		move_and_collide(run_speed, -12)
+		move_and_collide(run_speed, -9)
 		image_speed = 0.7
 		image_xscale = 1
 		
@@ -89,8 +89,36 @@
 
 	if keyboard_check(ord("A"))
 	{
-		move_and_collide(-run_speed, -12)
+		move_and_collide(-run_speed, -9)
 		image_speed = 0.7
+		image_xscale = -1
+		
+	}
+		#endregion
+		break
+		
+	case "Fall":
+		#region Fall State
+		move_and_collide(0, -2)
+		set_state_sprite(Hero_Fall, 1, 0)
+		if animation_end() or place_meeting(x, y+3, o_wallform) or place_meeting(x, y+2.5, o_lendform)
+		{
+		state = "Move"
+		
+		}
+		
+		if keyboard_check(ord("D"))
+	{
+		move_and_collide(run_speed, -5)
+		image_speed = 0.5
+		image_xscale = 1
+		
+	}
+
+	if keyboard_check(ord("A"))
+	{
+		move_and_collide(-run_speed, -5)
+		image_speed = 0.5
 		image_xscale = -1
 		
 	}
@@ -157,6 +185,12 @@
 			create_hitbox(x, y, self, Hero_Attack_three_damage, 8, 4, 3, image_xscale)
 		}
 		
+		if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5)
+		{
+			state = "Cast"
+			
+		}
+		
 		if animation_end()
 		{
 			state = "Move"
@@ -166,6 +200,24 @@
 		#endregion
 		break
 		
+	case "Cast":
+		#region Cast State
+		set_state_sprite(Hero_Attack_cast, 0.6, 0)
+		
+		if animation_hit_frame(5)
+		{
+			audio_play_sound(sound_sword_one, 1000, false)
+			create_fire_ball(x+20*image_xscale,y-5, image_xscale)
+		}
+		
+		if animation_end()
+		{
+			state = "Move"
+			
+		}
+		
+		#endregion
+		break
 	case "Knockback":
 		#region Knockback State
 		knockback_state(Hero_Hit, "Move")

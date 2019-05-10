@@ -18,5 +18,7 @@ if not place_meeting(x, y+yspeed, o_wallform)
 	{
 		y+=ygravity
 	}
+	
 }
+	
 

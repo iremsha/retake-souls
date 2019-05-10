@@ -15,6 +15,7 @@ else
 	draw_hp = lerp(draw_hp, 0, 0.2)
 }
 
+if draw_hp <= 0 draw_hp = 0 
 var hp_percent = draw_hp / draw_max_hp
 draw_rectangle_color(hp_x, hp_y, hp_x + (hp_width * hp_percent), hp_y + hp_hight, c_white, c_white, c_white, c_white, false)
 

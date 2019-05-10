@@ -7,6 +7,7 @@ roll_speed = 6
 
 souls = 0
 level = 1 
+kill = 0
 
 depth = 0
 

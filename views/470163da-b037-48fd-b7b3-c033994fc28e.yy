@@ -15,7 +15,7 @@
         "01fd1b68-8817-4c35-a762-92563d789460"
     ],
     "filterType": "GMSprite",
-    "folderName": "Level1",
+    "folderName": "Green_Forest",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

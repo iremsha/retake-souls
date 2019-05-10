@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-room_goto(r_world)
+room_goto(r_green_forest)
 
 

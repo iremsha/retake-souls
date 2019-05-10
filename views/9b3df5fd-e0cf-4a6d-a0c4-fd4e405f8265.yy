@@ -4,9 +4,10 @@
     "mvc": "1.1",
     "name": "9b3df5fd-e0cf-4a6d-a0c4-fd4e405f8265",
     "children": [
-        "e6e54cd7-5670-4482-8f9e-19c59de4448e",
-        "ec83e826-8944-4fc6-878f-6fb33e7627ff",
         "999690ae-f686-4c86-b7e6-7488369de25a",
+        "ec83e826-8944-4fc6-878f-6fb33e7627ff",
+        "e6e54cd7-5670-4482-8f9e-19c59de4448e",
+        "673b75f9-b2b2-4101-8f6a-201b21537605",
         "87e12224-a22f-4cfa-aecd-a6d06128c2e1"
     ],
     "filterType": "GMRoom",

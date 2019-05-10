@@ -15,11 +15,7 @@ if instance_exists(o_hero)
 			instance_create_layer(other.x, other.y-12, "Effects", o_hit_effect)
 		}
 	}
-
-	if creator.object_index == o_hero and other.hp <= 0
-	{
-		o_hero.souls += 10 + irandom_range(0, 5)
-	}
+	/// Во второй колизии посмотри какой тут иф, и понять что с ним не так, на нём 2 бага лежит..
 	
 	if other.object_index != o_hero
 	{
