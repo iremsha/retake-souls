@@ -17,8 +17,11 @@ if instance_exists(o_hero)
 	}
 	/// Во второй колизии посмотри какой тут иф, и понять что с ним не так, на нём 2 бага лежит..
 	
+	//if creator.object_index == o_hero o_hero.combo += 0.5
+	//Удачно ли место для комбо? Мб скрипт?
 	if other.object_index != o_hero
 	{
+		o_hero.combo += 0.5
 		other.alarm[0] = 160
 	}
 	other.state = "Knockback"

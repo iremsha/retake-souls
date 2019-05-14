@@ -1,7 +1,10 @@
-	 switch(state)
+//Приличное ли условие на комбо?
+
+switch(state)
 {
 	case "Move":
 		#region Move State
+	combo = 0
 	if keyboard_check(ord("D"))
 	{
 		move_and_collide(run_speed, 0)
@@ -44,6 +47,13 @@
 	{
 		image_index = 0
 		state = "Attack one"
+		
+	}
+	
+	if keyboard_check_pressed(ord("Q"))
+	{
+		image_index = 0
+		state = "Bow"
 		
 	}
 	#endregion
@@ -135,7 +145,7 @@
 		create_hitbox(x, y, self, Hero_Attack_one_damage, 3, 4, 1, image_xscale)
 	}
 	
-	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 6)
+	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 6) and combo > 1
 	{
 		
 		state = "Attack two"
@@ -160,7 +170,7 @@
 		create_hitbox(x, y, self, Hero_Attack_two_damage, 1, 4, 2, image_xscale)
 	}
 	
-	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5)
+	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5) and combo > 2
 	{
 		
 		state = "Attack three"
@@ -185,7 +195,7 @@
 			create_hitbox(x, y, self, Hero_Attack_three_damage, 8, 4, 3, image_xscale)
 		}
 		
-		if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5)
+		if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5) and combo > 3
 		{
 			state = "Cast"
 			
@@ -208,6 +218,25 @@
 		{
 			audio_play_sound(sound_sword_one, 1000, false)
 			create_fire_ball(x+20*image_xscale,y-5, image_xscale)
+		}
+		
+		if animation_end()
+		{
+			state = "Move"
+			
+		}
+		
+		#endregion
+		break
+		
+	case "Bow":
+		#region Bow State
+		set_state_sprite(Hero_Bow, 0.8, 0)
+		
+		if animation_hit_frame(8)
+		{
+			audio_play_sound(sound_sword_one, 1000, false)
+			create_arrow(x+20*image_xscale,y-15, image_xscale)
 		}
 		
 		if animation_end()

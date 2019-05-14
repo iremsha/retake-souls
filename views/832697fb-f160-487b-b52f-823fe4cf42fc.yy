@@ -8,7 +8,11 @@
         "8026ef52-060d-4d63-a959-2af9fd12636f",
         "160231ca-f59b-4053-8e9b-d6c039641623",
         "1a4eab44-ae1f-4c44-bcd8-c91fc62230b5",
-        "56a612cd-f3a4-47b0-81c7-c1f71a0b0c7b"
+        "56a612cd-f3a4-47b0-81c7-c1f71a0b0c7b",
+        "c3097bf7-9a91-4635-8e8d-79bb69e75153",
+        "cf431d52-6f46-4790-a746-19414db0853d",
+        "84e0cfef-49b8-4fb9-8455-f8d7e1cbf512",
+        "3f6b75fa-2aaa-40a0-a6ca-12a508455d27"
     ],
     "filterType": "GMObject",
     "folderName": "Game Object",

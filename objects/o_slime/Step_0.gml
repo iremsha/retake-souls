@@ -19,6 +19,7 @@ switch(state)
 		}
 		else
 		{
+			if range_target >= distance_to_player
 			move_and_collide(direction_facing * chase_speed, 0)
 		}
 		#endregion

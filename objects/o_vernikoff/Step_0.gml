@@ -19,6 +19,7 @@ switch(state)
 		}
 		else
 		{
+			if range_target >= distance_to_player
 			move_and_collide(direction_facing * chase_speed, 0)
 		}
 		#endregion
@@ -26,7 +27,7 @@ switch(state)
 		
 	case "Attack":
 		#region Attack State
-		set_state_sprite(Vernikoff_Attack, 1, 0)
+		set_state_sprite(Vernikoff_Attack, 0.6, 0)
 		
 		if animation_hit_frame(5)
 		{

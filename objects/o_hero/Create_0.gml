@@ -10,4 +10,4 @@ level = 1
 kill = 0
 
 depth = 0
-
+combo = 0

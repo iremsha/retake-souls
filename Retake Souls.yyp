@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01b45b8c-cf48-4a9a-9a90-67f2a75dd755",
+            "Value": {
+                "id": "556fc017-975d-4aca-aa63-1f21d2ec2bd7",
+                "resourcePath": "sprites\\Ninja_Dead\\Ninja_Dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01fd1b68-8817-4c35-a762-92563d789460",
             "Value": {
                 "id": "4465d4df-345f-4076-87a2-7af164f257eb",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "12c60109-0e9d-45bd-8fa9-ae2fb5ad7066",
+            "Value": {
+                "id": "855c62c3-e647-4abd-9e4d-60d12c0570c9",
+                "resourcePath": "objects\\o_end_map\\o_end_map.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13100a92-ada2-4fe8-93fa-e23bb37f3b2a",
             "Value": {
                 "id": "9b52b3a9-bbb0-476e-b62f-7e8204084a7b",
@@ -171,6 +187,14 @@
             "Value": {
                 "id": "29b5a9d8-954e-49e3-9cca-4d1a675d28d3",
                 "resourcePath": "sprites\\Skeleton_Idle\\Skeleton_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "154bbe9e-3d52-48dd-a604-35e7f4fc9fc1",
+            "Value": {
+                "id": "27f6213d-d137-4485-89de-89579c29e06b",
+                "resourcePath": "sprites\\Hero_Bow\\Hero_Bow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -266,7 +290,7 @@
             "Key": "2056431e-ba72-4f3f-b0a8-972a8cf9d9fc",
             "Value": {
                 "id": "4c1a41fa-f285-4c00-aa79-b0ff8fdcba12",
-                "resourcePath": "scripts\\approach\\approach.yy",
+                "resourcePath": "scripts\\approach_simple\\approach_simple.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -335,6 +359,14 @@
             }
         },
         {
+            "Key": "295b045f-a86c-474e-933a-821242a695c4",
+            "Value": {
+                "id": "7ebe26ba-bc6a-4d3c-a279-d4a55e46cbb7",
+                "resourcePath": "objects\\obj_pause\\obj_pause.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29969780-9bbc-472b-84c8-e6cccdb688a4",
             "Value": {
                 "id": "1fd13f19-f413-492d-9b57-142afda230bd",
@@ -367,6 +399,22 @@
             }
         },
         {
+            "Key": "2df75ec3-f5c5-4142-a558-14f02df23362",
+            "Value": {
+                "id": "9ba61a02-15a9-4419-b60c-7ac7411db47c",
+                "resourcePath": "sprites\\Ninja_Attack_one\\Ninja_Attack_one.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ec0ece1-13eb-47ab-9d3e-678b8fb5a6ab",
+            "Value": {
+                "id": "a8ede381-651d-497d-b5fb-2074fb8fe18b",
+                "resourcePath": "sprites\\Hero_Attack_bow_damage\\Hero_Attack_bow_damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2edd017d-051c-40ab-a46b-9c939ca674c8",
             "Value": {
                 "id": "b387e067-63a5-45e5-a6ff-b80eb3724cca",
@@ -380,6 +428,14 @@
                 "id": "8b834e49-138d-4fdd-abcc-3ddf167732e0",
                 "resourcePath": "views\\2f72344c-c4e1-4b7f-8ceb-36a71f067c9f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2fa646b8-2f0f-4a16-86cb-8827ce556f77",
+            "Value": {
+                "id": "15d05c0e-25b5-45aa-91b4-48aca8aa677e",
+                "resourcePath": "sprites\\Warrior_Dead\\Warrior_Dead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -404,14 +460,6 @@
                 "id": "3d8ae6fe-d571-4064-8aa1-729feea41632",
                 "resourcePath": "sprites\\Layer_0009_2\\Layer_0009_2.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "32105b2b-e694-4250-9922-42ea6b8c41ac",
-            "Value": {
-                "id": "a4354a5b-fc1b-4149-9bf4-3b0650c1e572",
-                "resourcePath": "views\\32105b2b-e694-4250-9922-42ea6b8c41ac.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -535,6 +583,14 @@
             }
         },
         {
+            "Key": "3f6b75fa-2aaa-40a0-a6ca-12a508455d27",
+            "Value": {
+                "id": "c09e8c79-715c-4743-b85f-1c46646ff117",
+                "resourcePath": "objects\\o_arrow\\o_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40db3ca0-d9a0-4327-837d-3508d4d587a1",
             "Value": {
                 "id": "7bb0e9f1-db68-4795-847f-f741def6d0d6",
@@ -547,6 +603,14 @@
             "Value": {
                 "id": "42bc23be-094a-4715-b431-61a929e609f1",
                 "resourcePath": "sprites\\Vernikoff_Walk\\Vernikoff_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "414d01c1-c07a-4323-88b4-47009d56ece1",
+            "Value": {
+                "id": "5b693aea-0865-4d0c-97a4-aed399b14376",
+                "resourcePath": "sprites\\Warrior_Walk\\Warrior_Walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -572,6 +636,22 @@
                 "id": "5d959605-a7d7-4526-b132-13e2ea1564a3",
                 "resourcePath": "objects\\o_hero\\o_hero.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "444bf490-ebcb-462e-a1fd-8285ee07a523",
+            "Value": {
+                "id": "043a9ca7-9a5a-445e-b119-1c641b714c61",
+                "resourcePath": "sprites\\Ninja_Attack_damage_one\\Ninja_Attack_damage_one.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45bbfd19-7958-4409-bbdf-f0ad25f6f69f",
+            "Value": {
+                "id": "7407726f-8ff0-4a17-bca8-3e2050346300",
+                "resourcePath": "sprites\\Warrior_Attack_damage\\Warrior_Attack_damage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -671,6 +751,14 @@
             }
         },
         {
+            "Key": "540866dc-8492-4067-8979-9cd21071ea8e",
+            "Value": {
+                "id": "ac42d7ff-b05a-44ff-9d77-cc2bcdb0da44",
+                "resourcePath": "sprites\\Warrior_Idle\\Warrior_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56a612cd-f3a4-47b0-81c7-c1f71a0b0c7b",
             "Value": {
                 "id": "564891f1-969d-4c72-8102-efe9af49d3c9",
@@ -724,6 +812,22 @@
                 "id": "8a1d2b4d-7ebd-4839-ae12-be1458553417",
                 "resourcePath": "sounds\\sound_main_two\\sound_main_two.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "628900c8-1559-4fe0-ac8e-5574f6fde5ed",
+            "Value": {
+                "id": "289358f9-4828-44ec-b46e-78157c4ea3d1",
+                "resourcePath": "views\\628900c8-1559-4fe0-ac8e-5574f6fde5ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62b860e4-391c-47ff-a2e7-224a628b3997",
+            "Value": {
+                "id": "7d88883f-4724-4d05-bdbb-83279a003ca1",
+                "resourcePath": "sprites\\Ninja_Idle\\Ninja_Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -855,6 +959,14 @@
             }
         },
         {
+            "Key": "7681929b-06d2-4523-830b-2d587d53772c",
+            "Value": {
+                "id": "38fd9f00-ba02-4392-bc38-a5d072cb65c2",
+                "resourcePath": "sprites\\Ninja_Walk\\Ninja_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "78293569-bfb8-4a6b-8ff9-46c85386ca54",
             "Value": {
                 "id": "f1b3a88d-52fa-421c-9bf7-b376eda8c20c",
@@ -875,6 +987,14 @@
             "Value": {
                 "id": "5c86cbc1-33c8-47d4-899f-96f32d683132",
                 "resourcePath": "sprites\\Slime_Dead\\Slime_Dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7cde6fd3-8b2c-426a-91b9-666ad1ea102b",
+            "Value": {
+                "id": "2e38b344-5980-4c75-8898-262f28247a2e",
+                "resourcePath": "sprites\\Ninja_Attack_two\\Ninja_Attack_two.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -927,6 +1047,14 @@
             }
         },
         {
+            "Key": "81da9b2a-2775-4af8-bbaa-a9107db50a1a",
+            "Value": {
+                "id": "0089fd56-b493-4f5f-a6f4-e2cacfd7f64b",
+                "resourcePath": "sprites\\Souls_Arrow\\Souls_Arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "832697fb-f160-487b-b52f-823fe4cf42fc",
             "Value": {
                 "id": "613a0e04-e3a5-475e-ab73-f73d0249dbcf",
@@ -940,6 +1068,14 @@
                 "id": "371b442b-e8bf-4465-953e-90185b992cb7",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "84e0cfef-49b8-4fb9-8455-f8d7e1cbf512",
+            "Value": {
+                "id": "12e046a2-4511-4291-a8b9-b997230fa57c",
+                "resourcePath": "objects\\o_warrior\\o_warrior.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1055,6 +1191,14 @@
             }
         },
         {
+            "Key": "922b0645-734b-43f5-9329-fa0c4de41886",
+            "Value": {
+                "id": "88566176-9ff9-40b3-b400-ce10ea73fb20",
+                "resourcePath": "sprites\\Warrior_Hit\\Warrior_Hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "d6de4b2a-dfe4-4786-ad03-ec03028df3f0",
@@ -1103,11 +1247,27 @@
             }
         },
         {
+            "Key": "9a9c6858-9206-4214-bc52-5bb0a54a353c",
+            "Value": {
+                "id": "309aca1a-8333-4bf6-926d-ad7042b8496d",
+                "resourcePath": "views\\9a9c6858-9206-4214-bc52-5bb0a54a353c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9b3df5fd-e0cf-4a6d-a0c4-fd4e405f8265",
             "Value": {
                 "id": "840c7a19-454e-463e-8ffa-79ec08dff3b6",
                 "resourcePath": "views\\9b3df5fd-e0cf-4a6d-a0c4-fd4e405f8265.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d56b048-be54-4775-8765-101378c797c2",
+            "Value": {
+                "id": "88dce147-0e83-44ac-85da-479a3152253d",
+                "resourcePath": "scripts\\Approach\\Approach.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1119,11 +1279,27 @@
             }
         },
         {
+            "Key": "a014f2de-d62f-4fc3-ae67-dc9f516318e2",
+            "Value": {
+                "id": "847a9666-629b-4f99-9db0-b5e7b643876b",
+                "resourcePath": "sprites\\Portal\\Portal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "295f9c31-b451-40b8-8c4e-ca0d2ab74170",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a240dfb0-a23e-4290-b3a3-f120ae15947e",
+            "Value": {
+                "id": "d25513e6-6ce1-45f0-8728-e8191e022de6",
+                "resourcePath": "sprites\\Ninja_Hit\\Ninja_Hit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1188,6 +1364,14 @@
                 "id": "bc6b9b95-8fb9-4192-a531-82e84d16e3d4",
                 "resourcePath": "objects\\o_man\\o_man.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae4927b5-8c49-4a02-8f8f-14f720ccfb9d",
+            "Value": {
+                "id": "5946ace9-58b5-4c0f-bd81-ecb643eba73e",
+                "resourcePath": "sprites\\End_Map\\End_Map.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1287,6 +1471,14 @@
             }
         },
         {
+            "Key": "c09156f3-58aa-4c48-8ec6-c10d0716f07e",
+            "Value": {
+                "id": "5410e9f5-2dda-4cb4-bb49-2d006dafb185",
+                "resourcePath": "sprites\\sfont_jasontomlee2\\sfont_jasontomlee2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c1bee635-31ea-47f6-8988-9380939522ef",
             "Value": {
                 "id": "d7d1d9d7-3e28-4b99-8773-342bcb07269b",
@@ -1308,6 +1500,14 @@
                 "id": "fc145ab5-f709-4551-9fa6-02bd85e9f9ea",
                 "resourcePath": "sprites\\Forest\\Forest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3097bf7-9a91-4635-8e8d-79bb69e75153",
+            "Value": {
+                "id": "a1f4e8c6-b4f0-4c79-9a14-3dd84a0d02f9",
+                "resourcePath": "objects\\o_portal\\o_portal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1339,6 +1539,14 @@
             "Value": {
                 "id": "47358dd2-9e16-4705-a45a-9dd832ce97c3",
                 "resourcePath": "sprites\\Old_House_two\\Old_House_two.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c76ecaed-2da7-4844-a496-6384593df597",
+            "Value": {
+                "id": "50b6f058-0af8-4f09-8a91-7a217a8282e9",
+                "resourcePath": "sprites\\Ninja_Attack_damage_two\\Ninja_Attack_damage_two.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1399,10 +1607,26 @@
             }
         },
         {
+            "Key": "cf431d52-6f46-4790-a746-19414db0853d",
+            "Value": {
+                "id": "1e29af81-9703-40ef-ae2e-1b951771303a",
+                "resourcePath": "objects\\o_ninja\\o_ninja.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cf8d7bf2-b5b1-441e-8fa7-d47d80e282dd",
             "Value": {
                 "id": "831f95b0-856c-4a74-9ff3-a17306b4f90c",
                 "resourcePath": "views\\cf8d7bf2-b5b1-441e-8fa7-d47d80e282dd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3b2626d-26d5-4f29-a1d3-71b903d3e066",
+            "Value": {
+                "id": "75e36e59-5e03-4e36-af05-4b859ceec640",
+                "resourcePath": "views\\d3b2626d-26d5-4f29-a1d3-71b903d3e066.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1427,6 +1651,14 @@
             "Value": {
                 "id": "8b169902-aea8-4336-8c0a-8234928cb631",
                 "resourcePath": "sprites\\Test_Jumo\\Test_Jumo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0fb01dc-f772-4a81-9516-2d732619d34c",
+            "Value": {
+                "id": "46c0d603-df2d-409e-97cc-f75e019155ce",
+                "resourcePath": "sprites\\Warrior_Attack\\Warrior_Attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1591,6 +1823,14 @@
             }
         },
         {
+            "Key": "f5af0ab8-1759-4b9a-92a6-63389b517224",
+            "Value": {
+                "id": "82a4ff08-1c1b-4c94-9776-f1d1a6d5971d",
+                "resourcePath": "scripts\\create_arrow\\create_arrow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f681190c-216b-450b-8297-7fd1cd817f1d",
             "Value": {
                 "id": "da836359-43dd-47bf-9bac-4d70ac6c8004",
@@ -1688,7 +1928,9 @@
         "e910b020-bc12-40f6-8f82-67b8cfadda91",
         "686e815f-8098-4ea6-95d3-e677372a5a66",
         "2056431e-ba72-4f3f-b0a8-972a8cf9d9fc",
-        "04a4e89e-1dee-4fe9-8d54-471fd3c425a1"
+        "04a4e89e-1dee-4fe9-8d54-471fd3c425a1",
+        "9d56b048-be54-4775-8765-101378c797c2",
+        "f5af0ab8-1759-4b9a-92a6-63389b517224"
     ],
     "tutorial": ""
 }

@@ -14,7 +14,8 @@
         "48fc27e2-2a03-40bd-a20e-863854076c76",
         "2d124d44-3892-4100-9a0b-d9607f67b608",
         "ce5a4fce-7dc8-4fbe-acbf-18acdc0b6200",
-        "1a34c639-cccd-41d0-b61a-7491b6f13f62"
+        "1a34c639-cccd-41d0-b61a-7491b6f13f62",
+        "295b045f-a86c-474e-933a-821242a695c4"
     ],
     "filterType": "GMObject",
     "folderName": "Game System Object",

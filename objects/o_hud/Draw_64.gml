@@ -36,12 +36,24 @@ var padding_y = 4
 draw_rectangle_color(start_x, start_y, start_x + text_width + padding_x, start_y + text_height+ padding_x, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false)
 draw_text(start_x + padding_x/2, start_y + padding_y, text)
 
+var counter_combo = round(o_hero.combo)
+var text = "Combo:" + string(counter_combo) + "x"
+var text_width = string_width(text)
+var text_height = string_height(text)
+
+var start_x = (8 * 8) + (padding_x * 1)
+var start_y = 16
+var padding_x = 4
+var padding_y = 4
+draw_rectangle_color(start_x, start_y, start_x + text_width + padding_x, start_y + text_height+ padding_x, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false)
+draw_text(start_x + padding_x/2, start_y + padding_y, text)
 
 var text = "Souls:" + string(o_hero.souls)
 var text_width = string_width(text)
 var text_height = string_height(text)
 
-var start_x = (8 * 8) + (padding_x * 1)
+
+var start_x = (8 * 8 * 2) + (padding_x * 2) 
 var start_y = 16
 var padding_x = 4
 var padding_y = 4

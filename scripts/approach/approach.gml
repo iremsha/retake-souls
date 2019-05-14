@@ -1,17 +1,12 @@
-var current_value  = argument0
-var target_value = argument1
-var change_amount = argument2
+/// @description  Approach(start, end, shift);
+/// @function  Approach
+/// @param start
+/// @param  end
+/// @param  shift
 
-if current_value < target_value
-{
-	current_value += change_amount
-	current_value = min(current_value, target_value)
-}
+if (argument0 < argument1)
+    return min(argument0 + argument2, argument1); 
+else
+    return max(argument0 - argument2, argument1);
 
-else 
-{
-	current_value -= change_amount
-	current_value = max(current_value, target_value)
-}
 
-return current_value

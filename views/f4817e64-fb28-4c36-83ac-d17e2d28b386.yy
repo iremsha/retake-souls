@@ -8,7 +8,8 @@
         "ec068505-34f0-4f06-818c-d9da2d45df4e",
         "29969780-9bbc-472b-84c8-e6cccdb688a4",
         "88281745-c947-4a58-bab2-503c27a1f710",
-        "11f6a134-65d0-44fe-9cc5-765f33f3cd83"
+        "11f6a134-65d0-44fe-9cc5-765f33f3cd83",
+        "2ec0ece1-13eb-47ab-9d3e-678b8fb5a6ab"
     ],
     "filterType": "GMSprite",
     "folderName": "Damage",

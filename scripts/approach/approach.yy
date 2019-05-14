@@ -1,8 +1,8 @@
 {
-    "id": "2056431e-ba72-4f3f-b0a8-972a8cf9d9fc",
+    "id": "9d56b048-be54-4775-8765-101378c797c2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "approach",
+    "name": "Approach",
     "IsCompatibility": false,
     "IsDnD": false
 }
