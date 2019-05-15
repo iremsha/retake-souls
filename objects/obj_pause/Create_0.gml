@@ -16,7 +16,7 @@ gpu_set_tex_filter( false );
 #region  General	
 /////////////////////////////////////////////////////////////////
 
-font	= font_add_sprite( sfont_jasontomlee2, ord(" "), 1, 1);
+//font	= font_add_sprite( sfont_jasontomlee2, ord(" "), 1, 1);
 
 // draw_set_font( font );
 

@@ -32,7 +32,7 @@ switch(state)
 		if animation_hit_frame(4)
 		{
 		audio_play_sound(sound_sword_two, 1000, false)
-		create_hitbox(x, y, self, Ninja_Attack_damage_one, 4, 4, 2, image_xscale)
+		create_hitbox(x, y, self, Ninja_Attack_damage_one, 2, 4, 2, image_xscale)
 		}
 		
 		if animation_end()

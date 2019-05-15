@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "2c33fab7-aa0c-4686-8490-52bc3a04a387",
+            "Value": {
+                "id": "3c219c05-1dc3-414d-af04-ffa25f8e2978",
+                "resourcePath": "sprites\\Dilog_Textbox_two\\Dilog_Textbox_two.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c92a6fc-0b81-4150-bfaf-71f11b7c3a3e",
             "Value": {
                 "id": "4c08abf2-2a19-42c3-a823-548b3d6a8e46",
@@ -668,6 +676,14 @@
                 "id": "e9091e04-6bd6-4e29-93aa-39f6b04edbd5",
                 "resourcePath": "views\\470163da-b037-48fd-b7b3-c033994fc28e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47d6c007-10f8-4270-b443-7a36cf05dfd9",
+            "Value": {
+                "id": "67625cec-06ac-4004-a202-f61bf1f406ac",
+                "resourcePath": "objects\\o_talkerform\\o_talkerform.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -999,6 +1015,14 @@
             }
         },
         {
+            "Key": "7d1e0ffb-fcc5-4133-b0d8-9f1516e53727",
+            "Value": {
+                "id": "3da5df6e-981f-4f62-9fff-f7175a790286",
+                "resourcePath": "objects\\o_textbox\\o_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7de7c337-8517-412a-823a-c8e0b07ca49c",
             "Value": {
                 "id": "ccc63b68-aa92-4be2-937e-8f0a7ce467ea",
@@ -1131,6 +1155,14 @@
             "Value": {
                 "id": "8ab34979-233f-4753-8e56-e16ee0a5c5c5",
                 "resourcePath": "sprites\\Button_Exit\\Button_Exit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "889a9b52-576b-4b87-a25e-e3b928946d30",
+            "Value": {
+                "id": "bf2e4b51-a449-4bec-9930-c52cd8763da3",
+                "resourcePath": "sprites\\Dilog_Textbox_one\\Dilog_Textbox_one.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1362,7 +1394,7 @@
             "Key": "ae0df916-31be-46dd-871c-3fb23bd47491",
             "Value": {
                 "id": "bc6b9b95-8fb9-4192-a531-82e84d16e3d4",
-                "resourcePath": "objects\\o_man\\o_man.yy",
+                "resourcePath": "objects\\o_npc_man\\o_npc_man.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1434,7 +1466,7 @@
             "Key": "b9ee62f2-4bb5-4ab4-aecf-8b9ce135cc20",
             "Value": {
                 "id": "191aacc0-547f-433f-9883-b16d38e3689d",
-                "resourcePath": "objects\\o_old_man\\o_old_man.yy",
+                "resourcePath": "objects\\o_npc_old_man\\o_npc_old_man.yy",
                 "resourceType": "GMObject"
             }
         },
