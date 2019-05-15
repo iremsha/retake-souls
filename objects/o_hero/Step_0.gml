@@ -50,10 +50,12 @@ switch(state)
 		
 	}
 	
-	if keyboard_check_pressed(ord("Q"))
+	if keyboard_check_pressed(ord("Q")) and o_hero.souls > 49
 	{
 		image_index = 0
 		state = "Bow"
+		o_hero.souls -= 50
+		
 		
 	}
 	#endregion

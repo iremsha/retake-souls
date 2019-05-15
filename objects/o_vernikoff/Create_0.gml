@@ -8,4 +8,4 @@ souls = 35
 hp = 56
 max_hp = hp
 
-range_targer = 320
+range_targer = 120

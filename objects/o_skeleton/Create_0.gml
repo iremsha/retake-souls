@@ -5,4 +5,4 @@ chase_speed = 1
 
 souls = 25
 
-range_target = 320
+range_target = 180

@@ -1,7 +1,7 @@
 x_buffer = 10
 y_buffer = 10
 
-y_text_box = y - 100
+y_text_box = y - 110
 
 text = "this is a long text to customize the text box, Oh forgive me my sins :)))))))))))))"
 name = "first name / last name"

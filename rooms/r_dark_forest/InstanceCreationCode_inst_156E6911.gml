@@ -1,3 +1,3 @@
 newRoom = r_old_town_hub;
-newX = 99;
+newX = 86;
 newY = 159;
