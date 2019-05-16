@@ -2,7 +2,7 @@ event_inherited()
 
 my_name = "Nobunaga"
 
-my_text[0] =  "Control: W - Jump, SPACE - attack 3x combo, S - Role"
+my_text[0] =  "Control: W - Jump, SPACE - attack 3x combo, S - Role, ESC - Menu"
 my_text[1] = "One more stranger looking for fame and money?"
 my_text[2] =  "Welcome to the forest of Jura - home for maguires.."
 my_text[3] =  "..who have taken human souls."

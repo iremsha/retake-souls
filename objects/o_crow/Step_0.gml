@@ -8,7 +8,7 @@ if place_meeting(x, y,	o_hero){
 		}
 		else {
 			o_hero.fire = true
-			if o_hero.souls > 99 o_hero.souls -= 100
+			if o_hero.souls > 99 o_hero.souls -= 10
 			else o_hero.souls = 1
   			
 		}
