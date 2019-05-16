@@ -11,3 +11,8 @@ kill = 0
 
 depth = 0
 combo = 0
+
+bow = false
+fire = false
+NPC = false
+

@@ -50,11 +50,11 @@ switch(state)
 		
 	}
 	
-	if keyboard_check_pressed(ord("Q")) and o_hero.souls > 49
+	if keyboard_check_pressed(ord("Q")) and o_hero.souls > 41 and o_hero.bow
 	{
 		image_index = 0
 		state = "Bow"
-		o_hero.souls -= 50
+		o_hero.souls -= 42
 		
 		
 	}
@@ -197,7 +197,7 @@ switch(state)
 			create_hitbox(x, y, self, Hero_Attack_three_damage, 8, 4, 3, image_xscale)
 		}
 		
-		if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5) and combo > 3
+		if keyboard_check_pressed(vk_space) and animation_hit_frame_range(3, 5) and combo > 3 and o_hero.fire
 		{
 			state = "Cast"
 			

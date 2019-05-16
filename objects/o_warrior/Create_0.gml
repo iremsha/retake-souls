@@ -1,6 +1,6 @@
 event_inherited()
 state = "Chase"
-attack_range = 18
+attack_range = 20
 chase_speed = 0.8
 
 souls = 35
@@ -8,4 +8,4 @@ souls = 35
 hp = 56
 max_hp = hp
 
-range_targer = 90
+range_targer = 190

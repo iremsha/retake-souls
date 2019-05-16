@@ -1,0 +1,1 @@
+o_end.x_speed = 8

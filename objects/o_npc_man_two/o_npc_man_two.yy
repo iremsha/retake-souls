@@ -1,18 +1,18 @@
 {
-    "id": "582a93b1-f776-4ad7-a051-9c1a44e997d8",
+    "id": "baa8f5ee-e068-4723-b0ea-1d5dec71a469",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_npc_man_two",
     "eventList": [
         {
-            "id": "165f3e79-e985-4b83-9ffe-5cf61ca3f00c",
+            "id": "8c524237-8e38-4c05-94b2-e717b3639671",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "582a93b1-f776-4ad7-a051-9c1a44e997d8"
+            "m_owner": "baa8f5ee-e068-4723-b0ea-1d5dec71a469"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
