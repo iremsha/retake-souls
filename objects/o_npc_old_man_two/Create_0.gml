@@ -1,6 +1,6 @@
 event_inherited()
 
-my_name = "Blacksmith"
+my_name = "Boris Munevich"
 
 my_text[0] =  "Oh.."
 

@@ -7,8 +7,11 @@ if hp <1{
 	state = "Died"
 	if animation_end() 
 	{
-		room_goto(r_main_menu);
-	
+		room_goto(last_lvl);
+		x = 99;
+		y = 159;
+		hp = 26
+		state = "Move"
 	}
 
 }

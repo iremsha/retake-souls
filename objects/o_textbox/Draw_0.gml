@@ -4,6 +4,7 @@ if char_count < string_length(text[page]) char_count +=  0.8
 	
 text_part = string_copy(text[page], 1, char_count)
 
+draw_set_font(f_main)
 //Draw Name
 draw_set_color(c_yellow)
 draw_set_halign(fa_center)

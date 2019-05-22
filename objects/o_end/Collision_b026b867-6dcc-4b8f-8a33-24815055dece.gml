@@ -1,1 +1,1 @@
-o_hero.hp = 1
+hitbox = create_hitbox(x, y, self, Blood_Ball, 3, 2, 1, image_xscale)

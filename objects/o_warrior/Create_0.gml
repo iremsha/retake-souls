@@ -5,7 +5,7 @@ chase_speed = 0.8
 
 souls = 35
 
-hp = 56
+hp = 64
 max_hp = hp
 
 range_targer = 190

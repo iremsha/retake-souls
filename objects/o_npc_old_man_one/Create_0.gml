@@ -1,9 +1,15 @@
 event_inherited()
 
-my_name = "Blacksmith"
+my_name = "Boris Munevich"
 
-my_text[0] =  "Oh no, the city was attacked by soul hunters!"
-my_text[1] =  "Against living opponents especially effective bow."
+my_text[0] =  "Ох, нет! На город напали Soul Hunters!"
+my_text[1] =  "Останови их! Но будь осторожен.. это лучшие войны Лорда Тьмы"
+my_text[2] =  "Берсер - воин ближнего боя с секирой.."
+my_text[3] =  "Чем меньше показатель его здоровья, тем больше урон.."
+my_text[4] =  "Самурай - воин с катаной, мастер ближнего боя.."
+my_text[5] =  "Владеет молниеносным комбо"
+my_text[6] =  "Вариор - самый крепкий воин.."
+
 
  
 

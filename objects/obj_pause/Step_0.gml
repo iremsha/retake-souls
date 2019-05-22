@@ -117,7 +117,7 @@ if ( pause ){
 
 			break;
 			case 2: // MainMenus
-				instance_activate_all();
+				room_goto(r_main_menu);
 				screen_alpha_set = 0;
 
 			break;

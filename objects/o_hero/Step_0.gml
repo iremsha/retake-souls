@@ -144,7 +144,7 @@ switch(state)
 	if animation_hit_frame(3)
 	{
 		audio_play_sound(sound_sword_one, 1000, false)
-		create_hitbox(x, y, self, Hero_Attack_one_damage, 3, 4, 1, image_xscale)
+		create_hitbox(x, y, self, Hero_Attack_one_damage, 2.5, 4, 1, image_xscale)
 	}
 	
 	if keyboard_check_pressed(vk_space) and animation_hit_frame_range(4, 6) and combo > 1

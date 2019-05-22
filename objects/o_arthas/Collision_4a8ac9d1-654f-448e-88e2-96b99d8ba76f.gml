@@ -1,0 +1,1 @@
+if ready state = "Dead"

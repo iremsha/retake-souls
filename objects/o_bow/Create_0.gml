@@ -2,10 +2,10 @@ event_inherited()
 
 my_name = "Bow"
 
-my_text[0] =  "This ancient weapon is a soul-devouring bow."
-my_text[1] =  "To use the weapon on Q."
-my_text[2] =  "bow upsets damage = 20% from number of all souls and spending 42 souls."
-
+my_text[0] =  "Это древнее оружие пожирающее души!"
+my_text[1] =  "Используйте его на Q."
+my_text[2] =  "Урон луком =20% от числа всех имеющихся душ, на 1 выстрел тратит 42 души."
+my_text[2] =  "10% шанс промоха по врагам, у скелетов +5% к уклонению о стрел"
 
 
 
