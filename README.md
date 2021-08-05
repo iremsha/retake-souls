@@ -15,9 +15,10 @@ E - Dialogue with NPC
 ```
 
 ### Screenshot
-![Screenshot](screenshot/image_1.jpg)
 We have fireballs😃!
 ![Screenshot](screenshot/image_2.jpg)
+
+![Screenshot](screenshot/image_1.jpg)
 
 ### Download
 I published my game on itch.io. You can download and play by [link](https://vernikoff.itch.io/retake-souls)
