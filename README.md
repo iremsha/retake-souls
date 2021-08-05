@@ -15,9 +15,6 @@ E - Dialogue with NPC
 ```
 
 ### Screenshot
-We have fireballs😃!
-![Screenshot](screenshot/image_2.jpg)
-
 ![Screenshot](screenshot/image_1.jpg)
 
 ### Download
