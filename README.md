@@ -15,10 +15,11 @@ E - Dialogue with NPC
 ```
 
 ### Screenshot
+![Screenshot](screenshot/image_2.jpg)
 ![Screenshot](screenshot/image_1.jpg)
 
 ### Download
-I published my game on itch.io. You can download and play by [link](https://vernikoff.itch.io/retake-souls)
+I published game on itch.io. You can download and play by [link](https://vernikoff.itch.io/retake-souls)
 
 ### About me
 Author this game Remsha Igor,
